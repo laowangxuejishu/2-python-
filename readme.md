@@ -152,22 +152,22 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-- 2 pyenv的使用
-	- 安装指定版本的python
+- 2 安装指定版本的python
 ```
- pyenv install --list
- pyenv install 2.7.15
- pyenv install 3.6.5
+	 pyenv install --list
+	 pyenv install 2.7.15
+	 pyenv install 3.6.5
 ```
-	- 卸载指定版本的python
+	
+- 3 卸载指定版本的python
 ```
 pyenv uninstall 2.7.15
 ```
-	- 创建虚拟环境
+- 4 创建虚拟环境
 ```
 pyenv virtualenv 2.7.15 p2715
 ```
-	- 删除虚拟环境
+- 5 删除虚拟环境
 ```
 pyenv virtualenv-delete p2715
 ```
@@ -243,38 +243,37 @@ Thank you for installing Miniconda3!
 ```
 conda list
 ```
-- 7 conda的使用
-	- 启动虚拟环境
+- 7 启动虚拟环境
 ```
 conda activate py3.5
 ```
-	- 虚拟环境列表以及当前的虚拟环境
+- 8 虚拟环境列表以及当前的虚拟环境
 ```
 conda info --envs  或者  conda env list
 ```
 
-	- 退出虚拟环境
+- 9 退出虚拟环境
 ```
 conda deactivate
 ```
-	- 创建虚拟环境
+- 10 创建虚拟环境
 ```
 conda create --name py3.5 python=3.5
 conda create --name py2.7.15 python=2.7.15
 ```
-	- 删除一个虚拟环境
+- 11 删除一个虚拟环境
 ```
 conda remove --name py3.5 --all
 ```
-	- 为当前虚拟环境安装包
+- 12 为当前虚拟环境安装包
 ```
 conda install numpy
 ```
-	- 删除当前环境中的包
+- 13 删除当前环境中的包
 ```
 conda remove  numpy
 ```
-	- 在主环境中向指定名称的虚拟环境安装包
+- 14 在主环境中向指定名称的虚拟环境安装包
 ```
 conda install -n py3.5 numpy
 ```
