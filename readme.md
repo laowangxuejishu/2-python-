@@ -102,7 +102,7 @@ yum check-update
 ### 方法2：使用virtualenv创建不同版本python的虚拟环境
 - 1 安装virtualenv
 ```
-	pip3 install virtualenv
+pip3 install virtualenv
 ```
 - 2 测试你的安装
 ```
@@ -154,9 +154,9 @@ source ~/.bashrc
 #### pyenv的使用
 - 安装指定版本的python
 ```
-	 pyenv install --list
-	 pyenv install 2.7.15
-	 pyenv install 3.6.5
+pyenv install --list
+pyenv install 2.7.15
+pyenv install 3.6.5
 ```
 	
 - 卸载指定版本的python
